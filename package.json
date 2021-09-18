@@ -1,0 +1,16 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node ./hyggo.js",
+    "dev": "nodemon ./hyggo.js"
+  }
+}
